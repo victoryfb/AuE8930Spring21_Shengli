@@ -76,4 +76,6 @@ $ chmod u+x *.py
 
 ```bash
 $ roslaunch assignment2 circle.launch radius:=1 angular_velocity:=1 number_of_turms:=2
+$ roslaunch assignment2 sqaure_openloop.launch speed:=0.2 angular_velocity:=0.2 square_length:=2
+$ roslaunch assignment2 sqaure_closedloop.launch tol:=0.1
 ```
