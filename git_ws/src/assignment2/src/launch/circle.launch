@@ -1,0 +1,11 @@
+<launch>
+    <arg name="radius" default="1"/>
+    <arg name="angular_velocity" default="1"/>
+    <arg name="number_of_turms" default="5"/>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node"></node>
+    <node pkg="assignment2" type="circle.py" name="circle">
+        <param name="x" value="$(arg radius)"/>
+        <param name="z" value="$(arg angular_velocity)"/>
+        <param name="n" value="$(arg number_of_turms)"/>
+    </node>
+</launch>
