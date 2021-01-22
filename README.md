@@ -26,9 +26,9 @@ A single **git_ws** folder which contains all assignments is maintained. The str
 ┃ ┃ ┣ 📜CMakeLists.txt
 ┃ ┃ ┗ 📜package.xml
 ┣ 📂screenshots
-┃ ┣ 📜assignment2_circle_screenshot.png
-┃ ┣ 📜assignment2_square_closedloop_screenshot.png
-┃ ┗ 📜assignment2_square_openloop_screenshot.png
+┃ ┣ 📜assignment2_circle.gif
+┃ ┣ 📜assignment2_square_closedloop.gif
+┃ ┗ 📜assignment2_square_openloop.gif
 ┣ 📂videos
 ┃ ┣ 📜assignment2_circle.mp4
 ┃ ┣ 📜assignment2_square_closedloop.mp4
