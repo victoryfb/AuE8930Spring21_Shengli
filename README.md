@@ -1,12 +1,12 @@
-## Assignments of AuE8930 Autonomy
+# Assignments of AuE8930 Autonomy
 
 This project is used to save assignments of AuE8930 Autonomy.
 
-### About Me
+## About Me
 
 I'm [Shengli Xu](https://www.linkedin.com/in/shengli-xu-8471a618b/), a Ph.D. student working with Dr. Rai at CU-ICAR. Intelligent control based on Deep Learning is my current research topic due to my academic background of Control Engineering.
 
-### Description
+## Description
 
 A single **git_ws** folder which contains all assignments is maintained. The structure of the project is shown below.
 
@@ -36,29 +36,22 @@ A single **git_ws** folder which contains all assignments is maintained. The str
 ┗ 📜.catkin_workspace
 ```
 
-### Assignment 2
+## Getting started
 
-#### Make the Turtle move in a circle with constant twist velocity
+### Prerequisites
 
-![Move in a circle](./git_ws/screenshots/assignment2_circle.gif)
+- Ubuntu 20.04
+- Ros Noetic
+- Python3
+- git
 
-#### Make the Turtle move in a square without velocity control
-
-![Move in a square without velocity control](./git_ws/screenshots/assignment2_square_openloop.gif)
-
-#### Make the Turtle move in a square with velocity control
-
-![Move in a square with velocity control](./git_ws/screenshots/assignment2_square_closedloop.gif)
-
-### Running
-
-- Clone the project
+### Clone the project
 
 ```bash
 $ git clone git@github.com:victoryfb/AuE8930Spring21_Shengli_Xu.git
 ```
 
-- Build code in a catkin workspace `git_ws`
+### Build code in a catkin workspace `git_ws`
 
 ```bash
 $ cd ./AuE8930Spring21_Shengli_Xu/git_ws
@@ -66,17 +59,6 @@ $ catkin_make
 $ source ./git_ws/devel/setup.bash
 ```
 
-- Make the node executable
+### Run assignment
 
-```bash
-$ cd ./AuE8930Spring21_Shengli_Xu/git_ws/src/assignment2/src/srcipts
-$ chmod u+x *.py
-```
-
-- Launch ROS nodes in the `assignment2`
-
-```bash
-$ roslaunch assignment2 circle.launch radius:=1 angular_velocity:=1 number_of_turms:=2
-$ roslaunch assignment2 square_openloop.launch speed:=0.2 angular_velocity:=0.2 square_length:=2
-$ roslaunch assignment2 square_closedloop.launch tol:=0.1
-```
+Details can be found in each assignment.
