@@ -14,6 +14,10 @@ A single **git_ws** folder which contains all assignments is maintained. The str
 📦git_ws
 ┣ 📂src
 ┃ ┣ 📂assignment2
+┃ ┃ ┣ 📂screenshots
+┃ ┃ ┃ ┣ 📜assignment2_circle.gif
+┃ ┃ ┃ ┣ 📜assignment2_square_closedloop.gif
+┃ ┃ ┃ ┗ 📜assignment2_square_openloop.gif
 ┃ ┃ ┣ 📂src
 ┃ ┃ ┃ ┣ 📂launch
 ┃ ┃ ┃ ┃ ┣ 📜circle.launch
@@ -23,16 +27,36 @@ A single **git_ws** folder which contains all assignments is maintained. The str
 ┃ ┃ ┃ ┃ ┣ 📜circle.py
 ┃ ┃ ┃ ┃ ┣ 📜square_closedloop.py
 ┃ ┃ ┃ ┃ ┗ 📜square_openloop.py
+┃ ┃ ┣ 📂videos
+┃ ┃ ┃ ┣ 📜assignment2_circle.mp4
+┃ ┃ ┃ ┣ 📜assignment2_square_closedloop.mp4
+┃ ┃ ┃ ┗ 📜assignment2_square_openloop.mp4
 ┃ ┃ ┣ 📜CMakeLists.txt
+┃ ┃ ┣ 📜README.md
 ┃ ┃ ┗ 📜package.xml
-┣ 📂screenshots
-┃ ┣ 📜assignment2_circle.gif
-┃ ┣ 📜assignment2_square_closedloop.gif
-┃ ┗ 📜assignment2_square_openloop.gif
-┣ 📂videos
-┃ ┣ 📜assignment2_circle.mp4
-┃ ┣ 📜assignment2_square_closedloop.mp4
-┃ ┗ 📜assignment2_square_openloop.mp4
+┃ ┣ 📂assignment3_turtlebot3
+┃ ┃ ┣ 📂screenshots
+┃ ┃ ┃ ┣ 📜TurtleBot3_move_in_circle.gif
+┃ ┃ ┃ ┣ 📜TurtleBot3_move_in_square.gif
+┃ ┃ ┃ ┗ 📜emergency_braking.gif
+┃ ┃ ┣ 📂src
+┃ ┃ ┃ ┣ 📂launch
+┃ ┃ ┃ ┃ ┣ 📜emergency_braking.launch
+┃ ┃ ┃ ┃ ┗ 📜move.launch
+┃ ┃ ┃ ┣ 📂scripts
+┃ ┃ ┃ ┃ ┣ 📜circle.py
+┃ ┃ ┃ ┃ ┣ 📜emergency_braking.py
+┃ ┃ ┃ ┃ ┗ 📜square.py
+┃ ┃ ┃ ┗ 📂worlds
+┃ ┃ ┃ ┃ ┣ 📜empty.world
+┃ ┃ ┃ ┃ ┗ 📜turtlebot3_wall.world
+┃ ┃ ┣ 📂videos
+┃ ┃ ┃ ┣ 📜TurtleBot3_move_in_circle.mp4
+┃ ┃ ┃ ┣ 📜TurtleBot3_move_in_square.mp4
+┃ ┃ ┃ ┗ 📜emergency_braking.mp4
+┃ ┃ ┣ 📜CMakeLists.txt
+┃ ┃ ┣ 📜README.md
+┃ ┃ ┗ 📜package.xml
 ┗ 📜.catkin_workspace
 ```
 
@@ -42,6 +66,10 @@ A single **git_ws** folder which contains all assignments is maintained. The str
 
 - Ubuntu 20.04
 - Ros Noetic
+- ROS1
+- TurtleBot3 packages
+- Gazebo
+- ROS Gazebo package
 - Python3
 - git
 

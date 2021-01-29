@@ -18,7 +18,7 @@ class TurtleBot:
         self.rate = rospy.Rate(10)
 
     def move_sqaure(self):
-        """ Move the turtle in a square. """
+        """ Move the turtlebot in a square. """
         # Since the robot is moving just in x-axis
         self.vel_msg.linear.y = 0
         self.vel_msg.linear.z = 0
@@ -51,7 +51,7 @@ class TurtleBot:
                 # Publish at the desired rate.
                 self.rate.sleep()
 
-            # Make a 90 degree turn
+            # Make a 90 degrees turn
             self.vel_msg.linear.x = 0
             self.vel_msg.angular.z = angular_velocity
 

@@ -18,7 +18,7 @@ class TurtleBot:
         self.rate = rospy.Rate(10)
 
     def move_circle(self):
-        """ Move the turtle in a circle. """
+        """ Move the turtlebot in a circle. """
         self.vel_msg.linear.x = 0.5
         self.vel_msg.angular.z = 0.5
 
